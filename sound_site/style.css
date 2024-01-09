@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+header {
+    text-align: center;
+}
+
+.pads {
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+}
+
+.pads div {
+    width: 100px;
+    height: 100px;
+    flex: 1;
+}
+
+.pad1 {
+    background-color: cadetblue;
+}
+
+.pad2 {
+    background-color: crimson;
+}
+
+.pad3 {
+    background-color: seagreen;
+}
+
+.pad4 {
+    background-color: navy;
+}
+
+.pad5 {
+    background-color: darkmagenta;
+}
+
+.pad6 {
+    background-color: orange;
+}
+
+.animation-zone>div{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+@keyframes jump {
+    0% {
+        left: 20%;
+        bottom: 15%;
+    }
+
+    50% {
+        left: 50%;
+        bottom: 50%;
+    }
+
+    100% {
+        left: 80%;
+        bottom: 15%;
+    }
+}
